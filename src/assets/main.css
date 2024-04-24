@@ -1,0 +1,22 @@
+@import './base.css';
+
+#page1,
+#page2,
+#page3 {
+  position: relative;
+  min-width: 100%;
+  min-height: 100vh;
+  border: 1px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.love {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4vh;
+  padding: 10%;
+}
