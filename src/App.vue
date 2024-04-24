@@ -6,7 +6,7 @@
     <p class="love">oi, meu amor</p>
   </div>
   <div id="page3">
-    <p class="love">meu amor da minha vida <3</p>
+    <p class="love">meu amorzinho da minha vida <3</p>
   </div>
 </template>
 
