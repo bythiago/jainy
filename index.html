@@ -1,27 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um amor que não cabe em palavras. Para Jainy — em 2026 e para sempre."
+    />
+    <title>Jainy, amo você ♥</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Great+Vibes&family=Love+Ya+Like+A+Sister&display=swap"
       rel="stylesheet"
     />
 
     <link href="src/assets/main.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="page1">
-      <h1 class="love">jainy, amo voce <3</h1>
+    <!-- Fundo animado: blobs, estrelas e corações flutuantes -->
+    <div class="ambient" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="stars" id="stars"></div>
+      <div class="hearts" id="hearts"></div>
     </div>
-    <div id="page2">
-      <p class="love">oi, meu amor</p>
-    </div>
-    <div id="page3">
-      <p class="love">meu amorzinho da minha vida <3</p>
-    </div>
+
+    <main>
+      <section class="page hero" id="page1">
+        <div class="content">
+          <p class="eyebrow reveal">para você, meu amor</p>
+          <h1 class="love hero-title reveal">
+            jainy, amo você <span class="heart-beat" role="button" tabindex="0" aria-label="Clique para soltar corações" title="Clique aqui ♥">♥</span>
+          </h1>
+          <p class="subtitle reveal">se o amor tivesse endereço, seria você.</p>
+        </div>
+        <a href="#page2" class="scroll-indicator" aria-label="Rolar para baixo"><span></span></a>
+      </section>
+
+      <section class="page" id="page2">
+        <div class="content">
+          <div class="glass reveal">
+            <span class="section-icon" aria-hidden="true">♥</span>
+            <h2 class="love">oi, meu amor</h2>
+            <p class="subtitle">
+              todo dia eu me surpreendo por ainda existirem motivos novos pra te amar.
+              obrigado por ser você, exatamente como você é.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page3">
+        <div class="content">
+          <h2 class="love romantic-gradient reveal">
+            meu amorzinho<br />da minha vida <span class="heart-beat" role="button" tabindex="0" aria-label="Clique para soltar corações" title="Clique aqui ♥">♥</span>
+          </h2>
+          <p class="subtitle reveal">
+            com você, até o silêncio é confortável. você é o meu lugar favorito no mundo inteiro.
+          </p>
+        </div>
+      </section>
+
+      <section class="page finale" id="page4">
+        <div class="content">
+          <p class="eyebrow reveal">e que venham muitos mais</p>
+          <h2 class="year reveal">2026</h2>
+          <p class="finale-line reveal">hoje, amanhã e sempre. eu te amo.</p>
+          <p class="subtitle reveal">feliz 2026, minha jainy. que este ano seja só nosso. ♥</p>
+        </div>
+        <footer>feito com ♥, só pra você</footer>
+      </section>
+    </main>
+
+    <noscript>
+      <style>
+        .reveal { opacity: 1; transform: none; }
+      </style>
+    </noscript>
+
+    <script src="src/assets/main.js" defer></script>
   </body>
 </html>
